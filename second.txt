@@ -1,0 +1,11 @@
+about git and git hub
+
+remote = $ git remote
+         -remote is used to create connection/interface between local repo at git and remote repo at github
+          before we can push anything to github we need to tell git about our remote repo on github. We need to setup a destinaton to push up to
+         -In git we refer to this destinations as remote
+         -each remote is simply a URL where a hosted repository lives
+
+Adding a new remote = $ git remote add <name><url>
+                     -a remote is really two things a URL, a label
+                     -To add a new remote we need to provide both to git 

@@ -1,0 +1,36 @@
+git commands = 
+
+git config user.email "xyz@gmail.com"
+git config user.name "xyz"
+
+1. rm -rf .git to stop tracking of folder
+2. git status
+3. git init to create a git repositary
+4. pwd (present working directory)
+5. ls (list content)
+6. cd (change directory)
+7. git add --a all changes are added to staging area
+8. git commit -m "msg.." 
+9. git log shows who when what changes has been done , shows history of changes, shows all commits
+10. git diff compare working directory with staging area
+11. git diff --staged to compare previous commit and current staging area
+12. git commit -a -m "direct commit" all tracked files are direct staged and committed but untracked files are not commited
+13. git rm "file name" to delete file 
+14. git mv file.txt file1.txt to rename file name
+15. git rm --cached "file_name" to untrack the file delete nshi hogi sirf untrack hogi
+16. rm -rf .git to delete repository
+17. git log -p shows what changes made in files, which line is removed which line is added in each commit
+18. git log -p -3 shows only 3 commits along with their difference
+19. git log --pretty=oneline shows all content/comment in one line
+20. q it quits the commits
+21. git log --pretty=short shows content in short form(only author,commitment msg)
+22. git log --pretty=full shows content in short form(only author,commiter,commitment msg)
+23. git log --since=2.days shows all work done in last 2 days
+24. git log --since=1.month shows all work done in last 1 month
+25. git log --since=2.weeks 
+26. git log --pretty=format:"%h -- %an" 
+27. git restore --staged file_name to unstage the fire/change
+28. git checkout -- file_name by mistake if u delete something we use it get previous data 
+29. git cjeckout -f 
+30. 
+
